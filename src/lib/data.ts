@@ -6,6 +6,14 @@ export interface Socials {
   icon: keyof typeof iconMap;
 }
 
+export interface Project {
+  title: string;
+  description: string;
+  tags: string[];
+  githubUrl: string;
+  liveUrl: string;
+}
+
 export const socialData: Socials[] = [
   {
     name: "LinkedIn",
@@ -34,4 +42,26 @@ export const socialData: Socials[] = [
   },
 ];
 
-export const projects = [{}];
+export const projects: Project[] = [
+  {
+    title: "OOPS",
+    description: "A simple HTML/CSS project.",
+    tags: ["HTML", "CSS"],
+    githubUrl: "#",
+    liveUrl: "#",
+  },
+  {
+    title: "hell no",
+    description: "A simple HTML/CSS project.",
+    tags: ["HTML", "CSS"],
+    githubUrl: "#",
+    liveUrl: "#",
+  },
+  {
+    title: "Killer ai",
+    description: "A simple HTML/CSS project.",
+    tags: ["HTML", "CSS"],
+    githubUrl: "#",
+    liveUrl: "#",
+  },
+];

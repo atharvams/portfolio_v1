@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function ProjectCard() {
   return (
-    <div className="bg-neutral-800 p-6 rounded-lg">
+    <div className="p-4 ">
       <div className="flex items-baseline justify-between mb-1 ">
         <h1 className="text-sm font-medium">OOPS</h1>
         <div className="flex flex-row gap-2">
