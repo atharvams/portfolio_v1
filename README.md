@@ -12,3 +12,11 @@ npm run dev
 ```
 
 #### Change the lib/data.ts file in the project according to you.
+
+
+
+## Todo:
+
+- Add animations. 
+- Add project details pages.
+- Connect with social links
