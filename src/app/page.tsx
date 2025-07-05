@@ -60,7 +60,7 @@ export default function Home() {
           <h1 className="bg-zinc-800 font-semibold text-md pl-4 pt-1 pb-1 m-1 rounded-t-md">
             Tools
           </h1>
-          <div className="grid grid-cols-7 gap-5 m-4 pl-5 pr-5">
+          <div className="grid grid-cols-7 gap-5 m-4 pl-5 pr-5 max-sm:grid-cols-4 sm:gap-x-4 max-xxs:grid-cols-3 max-xxs:gap-4">
             {tools.map((tool, index) => (
               <Tools key={index} logo={tool.logo} title={tool.title} />
             ))}
