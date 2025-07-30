@@ -17,17 +17,17 @@ export interface Project {
 export const socialData: Socials[] = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/atharva-kale-1b0a2b1b6/",
+    url: "https://www.linkedin.com/in/atharvams?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     icon: "LinkedIn",
   },
   {
     name: "GitHub",
-    url: "Github",
+    url: "https://github.com/atharvams",
     icon: "Github",
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/atharvakale_",
+    url: "https://x.com/Atharva_MS?t=vmF47zwVImbMqSr4GOiDzQ&s=09",
     icon: "X",
   },
   {
@@ -35,11 +35,11 @@ export const socialData: Socials[] = [
     url: "mailto:atharva.vit@gmail.com",
     icon: "Email",
   },
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/atharva_kale_/",
-    icon: "Instagram",
-  },
+  // {
+  //   name: "Instagram",
+  //   url: "https://www.instagram.com/atharva_kale_/",
+  //   icon: "Instagram",
+  // },
 ];
 
 export const projects: Project[] = [
