@@ -44,59 +44,67 @@ export const socialData: Socials[] = [
 
 export const projects: Project[] = [
   {
-    title: "OOPS",
-    description: "A simple HTML/CSS project.",
-    tags: ["HTML", "CSS"],
-    githubUrl: "#",
-    liveUrl: "#",
+    title: "DevScout",
+    description: "A centralized platform for your recruitment need.",
+    tags: ["React", "Clerk", "TailwindCSS", "JavaScript"],
+    githubUrl: "https://github.com/atharvams/DevScout",
+    liveUrl: "https://devscoutt.netlify.app/",
   },
   {
-    title: "hell no",
-    description: "A simple HTML/CSS project.",
-    tags: ["HTML", "CSS"],
-    githubUrl: "#",
-    liveUrl: "#",
+    title: "Swiggy Landing Page",
+    description: "A clean tailwind only landing page for Swiggy.",
+    tags: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
+    githubUrl: "https://github.com/atharvams/swiggy-home-v2",
+    liveUrl: "https://swiggy-home-v2.vercel.app/",
   },
   {
-    title: "Killer ai",
-    description: "A simple HTML/CSS project.",
-    tags: ["HTML", "CSS"],
-    githubUrl: "#",
+    title: "AiBuddy",
+    description: "A platform work on your communication skills with AI.",
+    tags: ["NextJS", "TailwindCSS", "TypeScript", "GoogleGemini"],
+    githubUrl: "https://github.com/atharvams/ai-interview",
     liveUrl: "#",
   },
 ];
 
 export const practiceProjects: Project[] = [
   {
-    title: "Practice Project",
-    description: "A practice project to enhance skills.",
+    title: "Crack the Dice",
+    description: "A simplw dice game to understand the gambling tricks.",
     tags: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/atharvams/Dice-Game",
+    liveUrl: "https://dice-game.amsbuilds.in/",
   },
   {
-    title: "Another Practice Project",
-    description: "Another practice project to enhance skills.",
+    title: "Snicker Landing Page",
+    description: "Practice project to build a landing page for Snicker.",
     tags: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/atharvams/Nike-landing-page",
+    liveUrl: "https://nike-landing-page-fawn.vercel.app/",
   },
 ];
 
 export const researchPapers: Project[] = [
   {
-    title: "Published Research Paper 1",
+    title: "Skin cancer detection using convolutional neural networks",
     description: "A research paper published in a journal.",
-    tags: ["Research", "Publication"],
+    tags: ["Deep Learning", "Neural Networks", "Research"],
     githubUrl: "#",
-    liveUrl: "#",
+    liveUrl:
+      "https://www.researchgate.net/profile/Deepak-Mane/publication/381412239_Nonlinear_Analysis_in_Skin_Cancer_Detection_Customized_Convolutional_Neural_Networks_Approach/links/66e2aa44fa5e11512cb5013c/Nonlinear-Analysis-in-Skin-Cancer-Detection-Customized-Convolutional-Neural-Networks-Approach.pdf",
   },
   {
-    title: "Published Research Paper 2",
-    description: "Another research paper published in a journal.",
-    tags: ["Research", "Publication"],
+    title: "House Price Prediction Using Machine Learning Algorithms",
+    description:
+      "A research paper on predicting house prices in metro cities in the near future.",
+    tags: [
+      "Machine Learning",
+      "Web Of Science Certified",
+      "Research",
+      "Publication",
+    ],
     githubUrl: "#",
-    liveUrl: "#",
+    liveUrl:
+      "https://drive.google.com/file/d/1I5tg_Tc_apfcVQycrBlyifhmG_yQQfJD/view?usp=sharing",
   },
 ];
 
