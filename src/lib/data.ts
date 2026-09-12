@@ -14,6 +14,16 @@ export interface Project {
   liveUrl?: string;
 }
 
+export interface Experience {
+  role: string;
+  company: string;
+  location: string;
+  period: string;
+  description: string;
+  highlights: string[];
+  tags: string[];
+}
+
 export const socialData: Socials[] = [
   {
     name: "LinkedIn",
@@ -40,6 +50,24 @@ export const socialData: Socials[] = [
   //   url: "https://www.instagram.com/atharva_kale_/",
   //   icon: "Instagram",
   // },
+];
+
+export const experiences: Experience[] = [
+  {
+    role: "Graduate Engineer Trainee (GET)",
+    company: "Rockwell Automation",
+    location: "Pune, India",
+    period: "2025 – Present",
+    description:
+      "Spearheading the design and development of Model Context Protocol (MCP) servers for PTC Windchill PLM and PTC Creo CAD platforms, enabling seamless AI-agent integration with enterprise product lifecycle management workflows.",
+    highlights: [
+      "Architecting MCP server infrastructure to bridge AI agents with Windchill REST APIs, facilitating intelligent document retrieval, BOM analysis, and change management automation",
+      "Engineering Creo Toolkit-based MCP integrations for AI-driven parametric modeling, design validation, and automated CAD operations",
+      "Collaborating cross-functionally with PLM architects and AI/ML teams to define protocol specifications and ensure enterprise-grade security compliance",
+      "Driving adoption of modern development practices including TypeScript, containerized deployments, and CI/CD pipelines for MCP server infrastructure",
+    ],
+    tags: ["MCP", "Windchill", "Creo", "TypeScript", "REST APIs", "PLM", "AI Integration"],
+  },
 ];
 
 export const projects: Project[] = [

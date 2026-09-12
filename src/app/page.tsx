@@ -2,8 +2,9 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Socials from "@/components/socials";
 import ProjectCard from "@/components/ui/card";
+import ExperienceCard from "@/components/ui/experience-card";
 import Tools from "@/components/ui/tool";
-import { practiceProjects, projects, researchPapers, tools } from "@/lib/data";
+import { experiences, practiceProjects, projects, researchPapers, tools } from "@/lib/data";
 
 export default function Home() {
   return (
@@ -11,6 +12,23 @@ export default function Home() {
       <div className="max-w-xl mx-auto mt-10">
         <Header />
         <Socials />
+        <section className="experience mt-4">
+          <h1 className="bg-zinc-800 font-semibold text-md pl-4 pt-1 pb-1 m-1 rounded-t-md">
+            Experience
+          </h1>
+          {experiences.map((exp, index) => (
+            <ExperienceCard
+              key={index}
+              role={exp.role}
+              company={exp.company}
+              location={exp.location}
+              period={exp.period}
+              description={exp.description}
+              highlights={exp.highlights}
+              tags={exp.tags}
+            />
+          ))}
+        </section>
         <section className="projects mt-4">
           <h1 className="bg-zinc-800 font-semibold text-md pl-4 pt-1 pb-1 m-1 rounded-t-md">
             Featured Projects
